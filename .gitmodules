@@ -1,0 +1,4 @@
+[submodule "frontend"]
+	url = https://github.com/hieuhuynh1752/thesis-TravelLite-frontend
+[submodule "backend"]
+	url = https://github.com/hieuhuynh1752/thesis-TravelLite-backend
