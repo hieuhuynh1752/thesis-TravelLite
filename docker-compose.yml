@@ -34,7 +34,7 @@ services:
     expose:
       - "3000"  # Expose internally for NGINX
     environment:
-      NEXT_PUBLIC_API_URL: http://localhost/api
+      NEXT_PUBLIC_SERVER_URL: https://www.travellite-thesis-se4gd.life/api
     depends_on:
       - backend
 
