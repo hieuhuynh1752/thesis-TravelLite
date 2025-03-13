@@ -27,7 +27,7 @@ services:
       - postgres
     env_file:
       - backend/.env.docker
-    command: ["./wait-for.sh", "postgres", "npm", "run", "start:migrate:prod"]
+    command: ["./wait-for.sh", "postgres", "npm", "run", "start"]
 
   frontend:
     build: ./frontend
